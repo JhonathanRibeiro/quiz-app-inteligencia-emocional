@@ -1,0 +1,79 @@
+/*!
+ * QuizApp Inteligencia Emocional v1.0.0
+ * Copyright 2020 Jhonathan Ribeiro
+ * Licensed MIT (https://github.com/JhonathanRibeiro)
+ */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+* { box-sizing: border-box;}
+html, body {height:100%;}
+html {
+    background: white;
+}
+body {
+    font-family: "Poppins", sans-serif;
+}
+h2 {
+    padding: 1rem;
+    text-align: center;
+    margin: 0;
+}
+a {
+    text-decoration: none!important;
+}
+ul li label {
+    cursor: pointer;
+}
+button {
+    background-color: #8e44ad;
+    border: none;
+    color: white;
+    cursor: pointer;
+    display: block;
+    font-family: inherit;
+    font-size: 1.1rem;
+    width: 100%;
+    padding: 1.3rem;
+}
+button:hover {
+    background-color: #732d91;
+}
+button:focus {
+    background-color: #5e3370;
+    outline: none;
+}
+ul.list-style {
+    list-style-type: none;
+    padding: 0;
+}
+ul li.list {
+    font-size: 1.2rem;
+}
+.footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+}
+.b-left-top-radius {
+    border-top-left-radius: 80px;
+    height: 100vh;
+}
+.quiz-container {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+    overflow: hidden;
+    width: 600px;
+    max-width: 100%;
+}
+.quiz-header {
+    padding: 1rem;
+}
+.author {
+    color: #0f80f1;
+}
+.header {
+    border-bottom-right-radius: 60px;
+}
+.ph-5 {
+    padding: 1.5rem 3rem;
+}
