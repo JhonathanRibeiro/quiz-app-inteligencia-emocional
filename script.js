@@ -190,7 +190,7 @@ function loadQuiz() {
     c_text.innerText = currentQuizData.c;
     d_text.innerText = currentQuizData.d;
     e_text.innerText = currentQuizData.e;
-    qtde.innerText = `${currentQuiz}/${quizData.length}`;
+    qtde.innerText = `${currentQuiz+1}/${quizData.length}`;
 }
 
 function getSelected() {
@@ -200,21 +200,22 @@ function getSelected() {
             answer = answerEl.id;
             switch(answer){
                 case answer.value = 'a':
-                 console.log('value of a: ',score += 5);
+                    score += 5
                 break
                 case answer.value = 'b':
-                 console.log('value of b: ',score += 4);
+                    score += 4
                 break
                 case answer.value = 'c':
-                 console.log('value of c: ',score += 3);
+                    score += 3
                 break
                 case answer.value = 'd':
-                 console.log('valou of d: ',score += 2);
+                    score += 2
                 break
                 case answer.value = 'e':
-                 console.log('value of e: ',score += 1);
+                    score += 1
                 break
             }
+            console.log('score:',score);
         }
     });
     return answer;
